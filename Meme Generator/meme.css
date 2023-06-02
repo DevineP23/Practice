@@ -1,0 +1,16 @@
+.imagefile{
+    position: relative;
+    border: 20px auto;
+    width: 100%;
+    padding: 30px;
+    
+}
+
+.topText{
+    width: 50%;
+   
+}
+
+.bottomText{
+    width: 50%;
+}
