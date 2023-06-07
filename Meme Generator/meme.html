@@ -8,15 +8,23 @@
     <link rel="stylesheet" href="meme.css">
 </head>
 <body>
+    <h1>Welcome to Meme-Genie</h1>
+
+    <textarea id="top-text"></textarea>
+    Text size: <input type="range" id="top-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+
+    <textarea id="bottom-text"></textarea>
+    Text size: <input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+
+    <input type="file" id="image-input" accept="image/*">
+
+    <button id="generate-btn">Generate!</button>
+
+    <canvas id="meme-canvas" title="Right click to save this meme"></canvas>
+
+
      
      
-     <form action="">
-        <input type="file" class="imagefile">
-        <input type="text" placeholder="Top Text" class="topText">
-        <input type="text" placeholder="Bottom Text" class="bottomText">
-        
-        <button type="submit">Add Meme</button>
-     </form>
     <script src="meme.js"></script>
 </body>
 </html>

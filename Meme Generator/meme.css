@@ -1,16 +1,13 @@
-.imagefile{
-    position: relative;
-    border: 20px auto;
-    width: 100%;
-    padding: 30px;
-    
-}
-
-.topText{
-    width: 50%;
-   
-}
-
-.bottomText{
-    width: 50%;
-}
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  
+  body {
+    margin: 10px;
+    background-color: wheat;
+  }
+  
+  #meme-canvas {
+    width: 300px;
+  }
