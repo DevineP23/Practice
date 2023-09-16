@@ -1,0 +1,52 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the game board */
+  #board {
+    display: inline-block;
+    border: 5px solid #3498db; /* Board border color */
+  }
+  
+  /* Style the column tops */
+  #column-top {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  #column-top td {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: #3498db; /* Column top background color */
+  }
+  
+  /* Style the game pieces */
+  .piece {
+    width: 40px; /* Adjust the piece width as needed */
+    height: 40px; /* Adjust the piece height as needed */
+    border-radius: 50%; /* Make the pieces round */
+    position: relative;
+  }
+  
+  /* Style player 1's pieces (you can adjust colors as needed) */
+  .piece.player1 {
+    background-color: red;
+  }
+  
+  /* Style player 2's pieces (you can adjust colors as needed) */
+  .piece.player2 {
+    background-color: yellow;
+  }
+  
+  /* Center the game board on the page */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for the page */
+  }
+  
